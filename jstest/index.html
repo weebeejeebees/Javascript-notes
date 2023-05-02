@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>
+    hello world
+</h1>
+<!-- Note that if we have a scr in the script tag, it will ignore the rest of the script -->
+<!-- This `` will treat the an object as a string like in person 2 -->
+
+<script>
+    let person =
+    {
+        "name" : "Ethan",
+        "age" : 20,
+        "hasMoney" : false,
+        "isHonest" : false,
+        "hobbies": ["none", "I am a loser"],
+        "friends": [{"name" : "Joseph",
+                    "age" : "20",
+                    "hasMoney" : false,
+                    "isHonest" : false,
+                    "hobbies": ["none", "I am a loser"]},
+
+                    {"name": "Yuri",
+                    "age" : 16,
+                    "hasMoney": true,
+                    "isHonest" : true,
+                    "hobbies" : ["exercising", "programming"]  }
+                ]
+        }
+        console.log(person)
+    
+    let person2 = `{
+        "name" : "Louise",
+        "age" : 21,
+        "hasMoney" : false,
+        "isHonest" : false,
+        "hobbies": ["none", "I am a loser"],
+        "friends": [{"name" : "Joseph",
+                    "age" : "20",
+                    "hasMoney" : false,
+                    "isHonest" : false,
+                    "hobbies": ["none", "I am a loser"]},
+
+                    {"name": "Yuri",
+                    "age" : 16,
+                    "hasMoney": true,
+                    "isHonest" : true,
+                    "hobbies" : ["exercising", "programming"]  }
+                ]
+        }`
+        console.log(person2)
+        console.log(JSON.parse(person2))
+</script>
+<!-- This `` will treat the an object as a string like in person 2 -->
+<!-- To display the string like an object again, we use console.log(JSON.parse(nameoffunction)) -->
+
+</body>
+</html>

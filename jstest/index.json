@@ -1,0 +1,19 @@
+{
+"name" : "Ethan",
+"age" : 18,
+"hasMoney" : false,
+"isHonest" : false,
+"hobbies": ["none", "I am a loser"],
+"friends": [{"name" : "Joseph",
+            "age" : "20",
+            "hasMoney" : false,
+            "isHonest" : false,
+            "hobbies": ["none", "I am a loser"]},
+
+            {"name": "Yuri",
+            "age" : 16,
+            "hasMoney": true,
+            "isHonest" : true,
+            "hobbies" : ["exercising", "programming"]  }
+        ]
+}
